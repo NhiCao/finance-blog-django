@@ -57,4 +57,4 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
-- Open your browser and go to http://localhost:8000/home/. Log in using the user you created above and start by creating a post.
+- Open your browser and go to http://localhost:8000/home/. Log in using the user you created above and start by creating a new post.
