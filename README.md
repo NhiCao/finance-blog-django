@@ -1,3 +1,4 @@
+# Overview
 This is a simple blog post app with basic functions:
 - Authentication
 
@@ -23,23 +24,37 @@ This is a simple blog post app with basic functions:
 
 ![postDelete](https://github.com/NhiCao/finance-blog-django/assets/27496909/27770abf-f224-4318-b58f-2ab0869b1174)
 
-How to set the system up:
-Clone the repository
-- git clone https://github.com/NhiCao/finance-blog-django.git
-Move to the project directory
-- cd finance-blog-django
-Create a virtual environment
-- virtualenv venv
-Activate the virtual environment
-- venv\Scripts\activate
-Install Django in the virtual environment
-- pip install Django
-Migrate data
-- python manage.py migrate
-Create a user
-- python manage.py createsuperuser
-Start the server
-- python manage.py runserver
-
-Open your browser and go to http://localhost:8000
-Log in using the user you created above.
+# Setting the system up:
+- Clone the repository to your local machine
+```
+git clone https://github.com/NhiCao/finance-blog-django.git
+```
+- Move to the project directory
+```
+cd finance-blog-django
+```
+- Create a virtual environment
+```
+virtualenv venv
+```
+- Activate the virtual environment
+```
+venv\Scripts\activate
+```
+- Install Django in the virtual environment
+```
+pip install Django
+```
+- Migrate data
+```
+python manage.py migrate
+```
+- Create a user
+```
+python manage.py createsuperuser
+```
+- Start the server
+```
+python manage.py runserver
+```
+- Open your browser and go to http://localhost:8000/home/. Log in using the user you created above and start by creating a post.
